@@ -1,0 +1,62 @@
+/* label:before {
+  content: "☆";
+  color: white;
+  font-size: 2em;
+}
+label.on:before {
+  content: "★";
+  color: white;
+}
+input:checked + label:before {
+  content: "★";
+  color: white;
+}
+label {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding-left: 25px;
+  margin-right: 15px;
+  font-size: 20px;
+}
+label:before {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  position: absolute;
+  left: 0;
+  border-radius: 10px;
+}
+input[type="radio"] {
+  display: none;
+  -webkit-appearance: none;
+}
+
+body {
+  margin: 2em;
+  background-color: #448ac1;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+}
+.question {
+  margin-bottom: 8em;
+}
+#q1 {
+  margin-top: 6em;
+}
+p {
+  color: white;
+  font-family: Bitter, sans-serif;
+  font-size: 2em;
+}
+#submit {
+  font-size: 24px;
+  font-family: Bitter, sans-serif;
+  color: #448ac1;
+  background-color: white;
+  width: 80px;
+  height: 80px;
+  border: none;
+  border-radius: 40px;
+} */
